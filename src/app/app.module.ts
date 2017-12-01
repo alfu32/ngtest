@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { XcardComponent } from './xcard/xcard.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    XcardComponent
   ],
   imports: [
     BrowserModule
