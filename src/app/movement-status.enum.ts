@@ -1,0 +1,3 @@
+export enum MovementStatus {
+	STANDING,SITTING,LYING,MOVING,CRAWLING,RUNNING
+}

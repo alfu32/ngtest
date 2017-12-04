@@ -1,0 +1,15 @@
+
+<div class="card-detail">
+	<span>
+  card-detail works!
+</span>
+
+    <a routerLink="/">
+      BACK
+    </a>
+	<h4>{{person.name}}</h4>
+	<div>{{person.birthday | date:'dd/MM/yyyy'}}</div>
+	<div>{{person.sex | sex  | lowercase }}</div>
+	<div>{{person.status | stateName | lowercase }}</div>
+	<app-stateful-canvas></app-stateful-canvas>
+</div>

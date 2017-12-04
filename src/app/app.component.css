@@ -3,3 +3,26 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+
+.flex-cols{
+	display:flow-root;
+}
+.flex-rows{
+	display:flex;
+	flex-direction: row;
+}
+.flex-row-10{
+	flex-shrink: 10;
+  	flex-grow: 10;
+}
+.flex-row-40{
+	flex-shrink: 40;
+  	flex-grow: 40;
+}
+.fill-height{
+	min-height: 500px;
+	max-height: 500px;
+}
+.scroll{
+	overflow-y: auto;
+}

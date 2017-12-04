@@ -1,3 +1,13 @@
-<p>
-  xcard works!
-</p>
+
+<div class="app-xcard">
+	<app-collapsible 
+		[title]="person.name"
+		(statechange)="onCollapsibleStateChanged($event)">
+		<div>{{person.birthday | date:'dd/MM/yyyy'}}</div>
+	</app-collapsible>
+	<div>{{ person.sex | sex }}</div>
+	<div>{{person.status | stateName}}</div>
+    <a routerLink="/detail/{{person.name}}">
+      <span class="badge">{{person.id}}</span> {{person.name}}
+    </a>
+</div>

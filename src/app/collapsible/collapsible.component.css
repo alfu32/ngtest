@@ -1,0 +1,12 @@
+.collapsible{
+
+}
+.collapsible-title{
+	cursor:pointer;
+}
+.collapsible-title:hover{
+	background: #ffffa5;
+}
+.collapsible-content{
+
+}

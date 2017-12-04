@@ -1,0 +1,9 @@
+.app-xcard{
+	margin:2px;
+	padding:5px;
+	border:1px solid #EEE;
+	box-shadow: 0px 0px 5px #000;
+}
+app-xcard{
+	index:'todo';
+}
